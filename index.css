@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    width: 100vh;
+    background-color: lightblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #95cd95;
+    width: 600px;
+
+}
+
+div.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 582px;
+}
+
+div.facts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    padding: 12px;   
+}
+
+p.mooseParagraph {
+    width: 273px;
+    padding: 13px;
+    height: 175px;
+
+}
